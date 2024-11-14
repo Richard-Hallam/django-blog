@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-^4b%4nfg(jde85523#xnyo1#&h&npw!7$-^4-ztmcq=u8gpvc2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-richardhalla-djangoblog-li8l1le17oa.ws.codeinstitute-ide.net', 
-                 '.herokuapp.com',]
+ALLOWED_HOSTS = ['8000-richardhalla-djangoblog-li8l1le17oa.ws.codeinstitute-ide.net', '.herokuapp.com',]
 
 
 # Application definition
@@ -39,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'about',
 ]
 
 MIDDLEWARE = [
